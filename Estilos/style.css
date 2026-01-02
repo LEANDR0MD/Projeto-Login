@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/*
+ PALETA DE CORES
+ Azul claro: #A4B7E6
+ Azul 1-: #738DCE
+ Azul: #4F6CB6
+ Azul 2+: #3454A3
+ Azul escuro: #1B3B8C
+*/
+
+/*Pesquise sobre: Typical Device Breakpoints
+
+Pequenas telas:  max-width: 0px      -     600px
+Celular:         min-width: 600px    -     767px
+Tablet:          min-width: 768px    -     991px
+Desktop:         min-width: 992px    -     1199px
+Grandes telas:   min-width: 1200px   -     +++
+*/
