@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/*
+ PALETA DE CORES
+ Azul claro: #A4B7E6
+ Azul 1-: #738DCE
+ Azul: #4F6CB6
+ Azul 2+: #3454A3
+ Azul escuro: #1B3B8C
+*/
+
+/*Pesquise sobre: Typical Device Breakpoints
+
+Pequenas telas:  max-width: 0px      -     599px
+Celular:         min-width: 600px    -     766px
+Tablet:          min-width: 767px    -     990px
+Desktop:         min-width: 991px    -     1199px
+Grandes telas:   min-width: 1200px   -     +++
+*/
+
+@media screen and (min-width: 767px) and (max-width: 990px) {
+
+    body,
+    html {
+        background-image: linear-gradient(to top, #A4B7E6, #1B3B8C);
+    }
+
+    section#login {
+        width: 80vw;
+        height: 300px;
+
+    }
+
+    section#login>div#imagen {
+        float: left;
+        width: 30%;
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+        background-image: url(../Imagens/tablet.jpg);
+        background-position: right;
+    }
+
+    section#login>div#formulario {
+        float: right;
+        width: 70%;
+        height: 100%;
+    }
+
+
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+
+    body,
+    html {
+        background-image: linear-gradient(to top, #A4B7E6, #1B3B8C);
+    }
+
+    section#login {
+        width: 900px;
+        height: 400px;
+    }
+
+    section#login>div#imagen {
+        float: right;
+        width: 35%;
+        height: 100%;
+        background-image: url(../Imagens/notbook.jpg);
+        background-position: center center;
+        border-radius: 0px 20px 20px 0px;
+
+    }
+
+    section#login>div#formulario {
+        float: left;
+        width: 65%;
+        height: 100%;
+
+    }
+
+
+
+
+
+
+
+}
