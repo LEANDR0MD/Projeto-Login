@@ -49,7 +49,7 @@ Grandes telas:   min-width: 1200px   -     +++
 
 }
 
-@media screen and (min-width: 991px) and (max-width: 1199px) {
+@media screen and (min-width: 991px) {
 
     body,
     html {
