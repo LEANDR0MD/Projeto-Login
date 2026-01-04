@@ -45,12 +45,14 @@ section#login {
     height: 500px;
     border-radius: 20px;
 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.412);
+
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.412);
+
 }
 
 section#login>div#imagen {
@@ -77,21 +79,47 @@ div#formulario>h1 {
 
 div#formulario>p {
     font-size: 0.8em;
+    padding-bottom: 10px;
 
 }
 
+/*campos do formulario e icones*/
+
 form>div.campo {
     background-color: #4F6CB6;
-    height: 50px;
-    border-radius: 5px;
+    height: 40px;
+    border-radius: 8px;
     margin: 5px 0px;
+    border: 4px solid #4F6CB6;
+
 
 }
 
 form>div.campo>span {
     color: #ffffff;
     font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    transform: translateY(-4px);
 
+
+}
+
+form>div.campo>input {
+    background-color: #A4B7E6;
+    height: 100%;
+    width: calc(100% - 45px);
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    padding: 4px;
+
+    transform: translateY(-14px);
+
+}
+
+div.campo>input:focus-within {
+    background-color: white;
 }
 
 div.campo>label {
